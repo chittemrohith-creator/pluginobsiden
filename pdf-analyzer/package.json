@@ -1,0 +1,21 @@
+{
+  "name": "local-pdf-analyzer",
+  "version": "1.0.0",
+  "description": "Obsidian plugin: local-first PDF analysis + auto-categorization via Ollama (no cloud API keys).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production"
+  },
+  "dependencies": {
+    "pdfjs-dist": "3.11.174"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "builtin-modules": "^5.0.0",
+    "esbuild": "^0.25.12",
+    "obsidian": "latest",
+    "typescript": "^5.9.3"
+  }
+}

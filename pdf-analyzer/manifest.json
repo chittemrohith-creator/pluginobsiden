@@ -1,0 +1,10 @@
+{
+  "id": "local-pdf-analyzer",
+  "name": "Local PDF Analyzer",
+  "version": "1.0.0",
+  "minAppVersion": "1.1.0",
+  "description": "Local-first PDF analysis: extracts text, summarizes it with a local Ollama LLM, and auto-categorizes the note into an existing vault folder.",
+  "author": "Your Name",
+  "authorUrl": "https://example.com",
+  "isDesktopOnly": true
+}
